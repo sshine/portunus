@@ -2,7 +2,7 @@
 //!
 //! ### `AuthorizedKeysCommand`
 //!
-//! ```
+//! ```norun
 //! Specifies  a  program  to  be  used to look up the user's public keys.  The program must be owned by
 //! root,  not  writable  by  group  or  others  and  specified  by  an  absolute  path.   Arguments  to
 //! AuthorizedKeysCommand  accept  the  tokens  described  in the “TOKENS” section.  If no arguments are
