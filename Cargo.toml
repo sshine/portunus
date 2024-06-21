@@ -1,0 +1,9 @@
+[workspace]
+members = ["portunus-keycached", "portunus-authkeys-cmd", "portunus-oracled"]
+
+[workspace.package]
+authors = ["Simon Shine <simon@simonshine.dk>"]
+description = "An SSH AuthorizedKeys Manager"
+repository = "https://github.com/sshine/portunus"
+homepage = "https://github.com/sshine/portunus"
+edition = "2021"
