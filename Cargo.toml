@@ -1,4 +1,5 @@
 [workspace]
+resolver = "2"
 members = ["portunus-keycached", "portunus-authkeys-cmd", "portunus-oracled"]
 
 [workspace.package]
