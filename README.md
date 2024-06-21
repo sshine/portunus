@@ -1,5 +1,7 @@
 # Portunus - SSH AuthorizedKeys Manager
 
+![CI](https://github.com/sshine/portunus/actions/workflows/main.yml/badge.svg)
+
 Distribute your SSH AuthorizedKeys for multiple users with multiple keys to multiple machines.
 
 Portunus supports importing its configuration from a git repository, and user SSH keys from GitHub.
