@@ -1,6 +1,4 @@
-# Portunus
-
-Portunus is an SSH AuthorizedKeys Manager
+# Portunus - SSH AuthorizedKeys Manager
 
 Distribute your SSH AuthorizedKeys for multiple users with multiple keys to multiple machines.
 
