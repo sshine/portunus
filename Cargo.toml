@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["portunus-keycached", "portunus-authkeys-cmd", "portunus-oracled"]
+members = ["portunus"]
 
 [workspace.package]
 authors = ["Simon Shine <simon@simonshine.dk>"]

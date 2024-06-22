@@ -3,13 +3,5 @@
 version = 3
 
 [[package]]
-name = "portunus-authkeys-cmd"
-version = "0.1.0"
-
-[[package]]
-name = "portunus-keycached"
-version = "0.1.0"
-
-[[package]]
-name = "portunus-oracled"
+name = "portunus"
 version = "0.1.0"

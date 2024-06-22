@@ -1,5 +1,5 @@
 [package]
-name = "portunus-oracled"
+name = "portunus"
 version = "0.1.0"
 authors.workspace = true
 description.workspace = true

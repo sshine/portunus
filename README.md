@@ -9,13 +9,12 @@ Portunus supports importing its configuration from a git repository, and user SS
 ## How does it work?
 
 - `portunus-authkeys-cmd` is called by `sshd` using the `AuthorizedKeysCommand` setting.
-- `portunus-authkeys-cmd` asks `portunus-keycached` if keys are authorized via UNIX socket.
-- `portunus-keycached` gives a cached answer and syncs with `portunus-oracled` via TCP.
-- `portunus-oracled` maintains an aggregated source of truth: users, keys, servers.
+- `portunus-authkeys-cmd` asks `portunus-keycached` if keys are authorized via UNIX or TCP socket.
+- `portunus-keycached` gives a cached answer and syncs with its sources or other instances.
 
 You install `portunus-authkeys-cmd` and `portunus-keycached` on each system under management.
 
-You install `portunus-oracled` on one or more systems reachable via TCP. (It can be one server.)
+You may install another `portunus-keycached` on one or more systems reachable via TCP.
 
 You define which users have which keys and which users have access to which servers.
 
